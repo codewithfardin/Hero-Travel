@@ -1,0 +1,98 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav-bar {
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand h3 {
+
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.brand h3 span {
+    color: #FF5400;
+}
+
+.nav-link ul li {
+    list-style: none;
+}
+
+.nav-link ul {
+    gap: 44px;
+}
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    height: 500px;
+    background-position: center;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.descriptiuon {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.btn-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.input {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 16px 32px;
+}
+
+.find-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+}
